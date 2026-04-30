@@ -1,0 +1,142 @@
+.background{
+    background-color: #0084FF;
+    width: 100%;
+    padding: 15px 20px !important;
+    
+}
+
+.background .container {
+    margin: auto;
+}
+
+.bannerImg {
+    max-width: 506px;
+    width: 100%;
+    height: auto;
+    min-width: 185px;
+}
+
+.banner-caption{
+    text-align: center;
+    color: #fff;
+    min-width: 137px !important;
+}
+
+.bannerBtn{
+    border-radius: 4px;
+    padding: 5px;
+}
+
+.bannerBtn a {
+    color: #fff !important;
+}
+
+.banner-caption p {
+    max-width: 408px;
+    margin: 16px auto;
+}
+
+.col {
+    flex: 1 0 0%;
+    margin: auto !important;
+    text-align: center !important;
+    
+}
+
+.row{
+    padding: inherit;
+    min-height: 260px !important;
+}
+
+.promo-caption{
+    padding: 10px 20px;
+    background-color: #E7FFFF;
+    margin-right: 10px !important;
+}
+
+.shop-now-link{
+    border-bottom: 2px solid #000000;  
+    transition: all 0.3s ease 0s;
+}
+
+.shop-now-link:hover
+{
+    border-bottom: 2px solid #EF3737;  
+}
+
+.promo-Img {
+    max-width: 249px;
+    width: 100%;
+    min-width: 200px;
+    margin-top: 18px;
+}
+
+img.promo-Img.img2 {
+    max-width: 176px;
+    width: 100%;
+    height: auto;
+    min-width: 200px;
+}
+
+h6{
+    font-weight: 600 !important;
+}
+
+.promo-caption-2{
+    padding: 10px 20px;
+    background-color: #FDFFD6;
+    margin-left: 10px !important;
+}
+
+/* .promo-Img-2{
+    max-height: 289px;
+    width: auto;
+    height: 100%;
+} */
+
+.promo-Img-2 {
+    max-width: 436px;
+    width: 100%;
+    height: auto;
+    min-width: 276px;
+}
+
+.row-2{
+    margin-top: 20px !important;
+    margin-bottom: 20px !important;
+    background-color: #E9E9E9;
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+    padding: 10px;
+}
+
+.col.caption-2-col {
+    min-width: 290px;
+}
+
+@media (max-width: 766px) {
+    .promo-caption {
+        margin-right: 0px !important; 
+        margin-bottom: 20px !important;
+    }
+
+    .promo-caption-2 {
+        margin-left: 0px !important; 
+    }
+}
+
+
+@media (max-width: 560px) {
+    .row{
+        display: block !important;
+    }
+
+    .promo-Img {
+        margin-top: 21px;
+        min-width: 236px;
+    }
+
+    .promo-Img-2 {
+        margin-top: 20px;
+    }
+}

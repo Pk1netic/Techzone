@@ -1,0 +1,14 @@
+table{
+    background-color: #ffffff !important;
+}
+ul.align-list{
+    list-style: none;
+    text-align: left;
+}
+table td {
+    vertical-align: baseline;
+}
+
+th.align-th {
+    text-align: justify;
+}

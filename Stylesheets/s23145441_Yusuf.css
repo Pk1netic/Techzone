@@ -1,0 +1,8 @@
+select {
+    width: 100%;
+    padding: 11px;
+    border: 1px solid #ced4da;
+    border-radius: .375rem;
+    margin: 5px auto !important;
+    color: #595959;
+}
