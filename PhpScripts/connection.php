@@ -3,9 +3,9 @@
 
 //setting variables that store the network, user, and database details to enable its connection
 $hostName = "127.0.0.1";
-$username = "root";
-$Password = "";
-$db_name = "s23160144_s23163517_s22226102_s23145441";
+$username = "admin";
+$Password = "Jayzee12345";
+$db_name = "Group68_DB";
 
 //connecting to database using mysqli function
 $conn = new mysqli($hostName,$username,$Password,$db_name);
