@@ -2,7 +2,7 @@
 /*This script will be used to execute and connect all sql scripts to the database*/
 
 //setting variables that store the network, user, and database details to enable its connection
-$hostName = "127.0.0.1";
+$hostName = "group68-db.can9fdhf2xcy.us-east-1.rds.amazonaws.com";
 $username = "admin";
 $Password = "Jayzee12345";
 $db_name = "Group68_DB";
